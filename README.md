@@ -33,16 +33,36 @@ Brady: (...)
 
 ### Transcript Structure
 When a new person talks, start with their name and a colon.
+
 Example:
 ```
 Brady: (...)
 Grey: (...)
 Brady: (...)
 ```
-Put notes like: laughing, chuckles, etc. in square brackets. `[laughs]`.
-When there is transitional music put a new line then: `*Intro music*`, or `*Transitional Music*`, then another new line.
-Other than that, use whatever format you would like.
-Following these is important so something like a machine learning algorithm can understand that they are not spoken words.
+Put sounds, notes, or any non-spoken words like: laughing, chuckles, etc. in square brackets. `[laughs]`, `[clap]`, `[sigh]`
+
+When there is transitional music put a new line then: `[Intro music]`, or `[Transitional Music]`, then another new line.
+
+Use hyphens to separate any kind of cut-off or incomplete thought.
+
+The use of words like "gonna" and "wanna" is acceptable.
+
+Use ellipses "..." to indicate a pause.
+
+Avoid using exclamation marks and semicolons.
+
+Spell out any numbers.
+
+
+
+Example:
+```
+Grey: [chuckles] Well, well last time we were- we were talking about being wrong on the internet.
+Brady: Being wrong on the internet.
+Grey: Yeah, that was- that was last time. Now, at the time we're recording this, the podcasts have not gone live, so we- we haven't had any listener feedback.
+```
+
 
 
 ## Helpful tools
