@@ -2,6 +2,9 @@
 
 This project will help people search for segments and possibly create new episodes using machine learning!
 
+
+See the episode list [here](Episodes.md)
+
 ## Contributing
 If you want to transcribe an episode, make an issue so we know who is working on what. If you find an already transcribed episode, put it there also. If you can't bother to make a GitHub account, send me a private message on Reddit (u/muhammed_smith).
 
@@ -25,9 +28,8 @@ Brady: (...)
 ```
 
 ### File Structure
-- Main episodes (have a number) are stored in `/episode/(num).txt`, where num is a three digit number. For example: `/episode/020.txt` is the 20th episode. If the episode number is less than 100, precede it with a zero so it is sorted by name correctly.
+- Main episodes (have a number) are stored in `/episode/(num).txt`, where num is a three digit number. For example: `/episode/020.txt` is the 20th episode.
 - 12 days of Hello Internet are placed in `/12days/(num).txt`
-- Star Wars christmas special episodes are placed in `/starwars/(name).txt` For example: `/starwars/The-Rise-of-Skywalker.txt`
 - Extra cuts (from the YouTube channel) are placed in `/extra/(cutname).txt` For example: `/extra/060.1.txt`
 - If there are any extra clips that don't have a number (Vinyl episode, wax cylinder edition), place them in `/extra/` with their name.
 
